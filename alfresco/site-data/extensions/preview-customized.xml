@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension>
+	<modules>
+		<module>
+			<id>Web Preview webscript customization</id>
+			<customizations>
+				<customization>
+					<targetPackageRoot>org.alfresco.components.preview</targetPackageRoot>
+					<sourcePackageRoot>ecmkit.preview.customization</sourcePackageRoot>
+					<dependencies>
+						<css>/res/components/preview/PDFPreviewerHTML.css</css>
+						<js>/res/components/preview/jquery-1.4.3.js</js>
+						<js>/res/components/preview/scroll-startstop.events.jquery.js</js>
+						<js>/res/components/preview/jquery.lazyload.js</js>
+						<js>/res/components/preview/PDFPreviewer.js</js>
+					</dependencies>
+				</customization>
+			</customizations>
+		</module>
+	</modules>
+</extension>
